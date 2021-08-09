@@ -1,0 +1,69 @@
+body{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+	background-color: lightgreen;
+
+}
+
+
+#caroussel{
+	
+	width:1920px;
+	overflow: hidden;
+	
+}
+.images {
+	display: flex;
+	animation-duration: 15s;
+	animation-name: mesImages;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mesImages
+{
+	0%
+	{
+		transform: translateX(0);
+	} 
+	25%
+	{
+		transform: translateX(-900px);
+	} 
+	50%
+	{
+		transform: translateX(-1700px);
+	} 
+	75%
+	{
+		transform: translateX(-2640px);
+	} 
+	100%
+	{
+		transform: translateX(0);
+	} 
+
+}
+
+nav li 
+{
+	display: inline-block;
+}
+nav ul 
+{
+	position: absolute;
+	top: 50;
+	right: -0;
+}
+
+h1 {
+	text-align: center	;
+}
+
+
+button .login 
+{
+ outline-color: ;
+}
+

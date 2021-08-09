@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Se connecter - Horizon</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="" alt="PLACEHOLDER LOGO">
+		<p class="date">
+			09/08/2021
+		</p>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="./index.html">Accueil</a></li>
+			<li><a href="./about.html">A propos</a></li>
+			<li><a href="#">Magasin</a></li>
+			<li><a href="./news.html">Actualités / Nouveautés</a></li>
+			<li><a href="./login.html">Se connecter</a></li>
+			<li><a href="./contact.html">Contact</a></li>
+			<li><a href="./panier.html">Panier</a></li>
+		</ul>
+	</ul>
+</nav>
+<main>
+	<h1>Se Connecter</h1>
+	
+	<form action="post" id= "signin" name = "signin">
+		<section>Déjà membre
+			<p>
+				<label for="username">Nom d'utilisateur:</label>
+				<input type="text" id= "username" name="username">
+			</p>
+			<p>
+				<label for="password">Mot de Passe:</label>
+				<input type="password" id= "password" name="password">
+			</p>
+			<p>
+				<button type="submit	", onclick="Connect()" form = "signin")>Se connecter</button>
+				<script src= "script.js"></script>
+			</p> 
+			
+ </section>
+ <section>
+	 Nouveau membre
+ </section>
+
+ <p>
+	<label for="username">Nom d'utilisateur:</label>
+	<input type="text" id= "username" name="username">
+</p>
+<p>
+	<label for="password">Mot de Passe:</label>
+	<input type="password" id= "password" name="password">
+</p>
+<label for="password">Répétez votre mod de passe:</label>
+<input type="password2" id= "password2" name="password">
+<p>
+	<button class = "login" type="submit	", onclick="Connect()" form = "signin")>S'inscrire</button>
+	<script src= "script.js"></script>
+</p> 
+	</form>
+</main>
+</body>
+
+</html>
