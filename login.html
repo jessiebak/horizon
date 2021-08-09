@@ -29,41 +29,43 @@
 <main>
 	<h1>Se Connecter</h1>
 	
-	<form action="post" id= "signin" name = "signin">
-		<section>Déjà membre
-			<p>
-				<label for="username">Nom d'utilisateur:</label>
-				<input type="text" id= "username" name="username">
-			</p>
-			<p>
-				<label for="password">Mot de Passe:</label>
-				<input type="password" id= "password" name="password">
-			</p>
-			<p>
-				<button type="submit	", onclick="Connect()" form = "signin")>Se connecter</button>
-				<script src= "script.js"></script>
-			</p> 
-			
- </section>
- <section>
-	 Nouveau membre
- </section>
-
- <p>
-	<label for="username">Nom d'utilisateur:</label>
-	<input type="text" id= "username" name="username">
-</p>
-<p>
-	<label for="password">Mot de Passe:</label>
-	<input type="password" id= "password" name="password">
-</p>
-<label for="password">Répétez votre mod de passe:</label>
-<input type="password2" id= "password2" name="password">
-<p>
-	<button class = "login" type="submit	", onclick="Connect()" form = "signin")>S'inscrire</button>
-	<script src= "script.js"></script>
-</p> 
-	</form>
+	<div class="loginbox">
+		<form action="post" id= "signin" name = "signin">
+			<section>Déjà membre
+				<p>
+					<label for="username">Nom d'utilisateur:</label>
+					<input type="text" id= "username" name="username">
+				</p>
+				<p>
+					<label for="password">Mot de Passe:</label>
+					<input type="password" id= "password" name="password">
+				</p>
+				<p>
+					<button class= "login" type="submit	", onclick="Connect()" form = "signin")>Se connecter</button>
+					<script src= "script.js"></script>
+				</p>
+				
+		 </section>
+		 <section>
+		 Nouveau membre
+		 </section>
+		
+		 <p>
+		<label for="username">Nom d'utilisateur:</label>
+		<input type="text" id= "username" name="username">
+		</p>
+		<p>
+		<label for="password">Mot de Passe:</label>
+		<input type="password" id= "password" name="password">
+		</p>
+		<label for="password">Répétez votre mod de passe:</label>
+		<input type="password2" id= "password2" name="password">
+		<p>
+		<button class = "login" type="submit", onclick="Connect()" form = "signin")>S'inscrire</button>
+		<script src= "script.js"></script>
+		</p>
+		</form>
+	</div>
 </main>
 </body>
 

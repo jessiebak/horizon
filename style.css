@@ -62,8 +62,16 @@ h1 {
 }
 
 
-button .login 
+button.login
 {
- outline-color: ;
+ background-color: dodgerblue;
+ color: white;
+}
+
+div.loginbox {
+	display: flex;
+	align-items: center;
+	border: 2px dodgerblue solid;
+	block-size: auto;
 }
 
